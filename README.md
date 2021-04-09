@@ -4,6 +4,8 @@ The purpose of this project is to override the **readFile()** and **writeFile()*
 
 To get the readable content from these files, we will intercept the **readFile()** call. After it gets the encrypted content from the file, we will call the function to do the reverse process, decrypting and returning the readable data to the caller.
 
+Project developed based on the video ["How to intercept native Node.js functions to encrypt data"](https://www.youtube.com/watch?v=NiMlyJhlbeg) on [Erick Wendel's youtube channel](https://www.youtube.com/channel/UCh84012dEUE076wM2CVFN9A)
+
 ## 📃 Example
 
 _Content_
